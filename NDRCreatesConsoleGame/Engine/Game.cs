@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NDRCreatesConsoleGame
+namespace NDRCreatesConsoleGame.Engine
 {
     /// <summary>
     /// Base class for any type of game that needs to be runned on engine.

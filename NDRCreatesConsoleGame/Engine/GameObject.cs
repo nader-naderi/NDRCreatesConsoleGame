@@ -1,4 +1,4 @@
-﻿namespace NDRCreatesConsoleGame
+﻿namespace NDRCreatesConsoleGame.Engine
 {
     public class GameObject
     {
@@ -22,7 +22,7 @@
         {
             this.name = name;
             // creating the vector and assigning the x and y coordinates
-            this.position = new Vector(x, y);
+            position = new Vector(x, y);
         }
 
         // Properties

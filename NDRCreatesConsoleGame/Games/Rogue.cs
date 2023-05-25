@@ -1,6 +1,8 @@
 ﻿using System;
 
-namespace NDRCreatesConsoleGame
+using NDRCreatesConsoleGame.Engine;
+
+namespace NDRCreatesConsoleGame.Games
 {
     public class Rogue : Game
     {
@@ -116,7 +118,7 @@ namespace NDRCreatesConsoleGame
                 direction = new Vector(random.Next(-1, 2), random.Next(-1, 2));
 
                 // create new move vector based on dir
-                Vector newEnemyPosition = new Vector(enemy.X + direction.X, enemy.Y + direction.Y); 
+                Vector newEnemyPosition = new Vector(enemy.X + direction.X, enemy.Y + direction.Y);
 
                 // if we could move, dont proceed.
                 if (CanMove(newEnemyPosition.X, newEnemyPosition.Y))

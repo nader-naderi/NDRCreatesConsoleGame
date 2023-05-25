@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace NDRCreatesConsoleGame
+namespace NDRCreatesConsoleGame.Engine
 {
     public class Engine
     {
@@ -60,7 +60,7 @@ namespace NDRCreatesConsoleGame
         {
             // find the gap between the previous frame.
             TimeSpan deltaTime = stopwatch.Elapsed;
-            
+
             // restart the watch
             stopwatch.Restart();
 

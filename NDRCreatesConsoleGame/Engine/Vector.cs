@@ -1,4 +1,4 @@
-﻿namespace NDRCreatesConsoleGame
+﻿namespace NDRCreatesConsoleGame.Engine
 {
     public class Vector
     {
